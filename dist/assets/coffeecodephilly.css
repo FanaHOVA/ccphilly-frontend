@@ -1,0 +1,109 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-div {
+	padding: 10px;
+	background-color: #CA944E;
+	margin-bottom: 5%
+}
+
+.navbar-li {
+	    display: inline-block;
+}
+
+.navbar-link {
+    display: block;
+    width: 60px;
+   	color: #4E2F07 !important;
+}
+
+.navbar-link:hover {
+	color: #644C37;
+}
+
+a {
+   	color: #CA944E;
+}
+
+a:hover {
+	color: #644C37;
+	text-decoration: none;
+}
+
+.cclist-p {
+	font-style: italic;
+}
+
+.nav-glyph {
+	font-size: 1.6em;
+}
+
+.map-placeholder {
+	width: 350px;
+	height: 350px;
+	background-color: #676767;
+	margin: 0 auto;
+}
+
+.coffee-infos {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.home-banner {
+	object-fit: cover;
+	background: url('http://alessiofanelli.com/ccbg.jpg') center;
+	background-size: 100%;
+}
+
+#welcome-heading {
+	color: #ededed;
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.landing-big {
+	background-color: #0584d5;
+	color: #ededed;
+}
+
+.welcome-paragraph {
+	padding: 0.5em;
+}
+
+/* Small phones iPhone 4, etc */
+@media (max-width:481px) {
+
+}
+
+/*  Normal phones HTC One, iPhone 6, etc */
+@media (max-width:641px) {
+
+}
+
+/* Tablets */
+@media (max-width:961px) {
+
+}
+
+/* Desktop and laptop */
+@media (min-width:1129px) {
+	.form-new-coffee {
+	width: 50%;
+}
+
+.coffee-list-panel {
+	width: 80%;
+	margin: 0 auto;
+}
+}

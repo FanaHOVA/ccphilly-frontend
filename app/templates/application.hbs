@@ -1,0 +1,12 @@
+<div class='container-fluid navbar-div'>
+<ul id='navbar'>
+  <li class='navbar-li'>{{#link-to 'coffee' class='navbar-link'}}<i class='glyphicon glyphicon-tint nav-glyph'></i>{{/link-to}}</li>
+  <li class='navbar-li'>{{#link-to 'coffee.new' class='navbar-link'}}<i class='glyphicon nav-glyph glyphicon-pencil'></i>{{/link-to}}</li>
+  <li class='navbar-li'>{{#link-to 'cclist' class='navbar-link'}}<i class='glyphicon nav-glyph glyphicon-globe'></i>{{/link-to}}</li>
+  <li class='navbar-li'>{{#link-to 'about' class='navbar-link'}}<i class='glyphicon nav-glyph glyphicon-info-sign'></i>{{/link-to}}</li>
+</ul>
+</div>
+
+<div class='container-fluid'>
+    {{outlet}}
+</div>

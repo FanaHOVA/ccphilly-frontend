@@ -1,0 +1,36 @@
+<form {{action 'save' on='submit'}} class='form-horizontal'>
+	<div class='form-group'>
+		<label>Name:</label> 
+		{{input value=model.name class='form-control'}}
+	</div>
+
+	<div class='form-group'>
+		<label>Address:</label>
+	    {{input value=model.address class='form-control'}}
+	</div>
+
+	<div class='form-group'>
+		<label>Is the wifi stable? How fast is it?</label>
+	    {{input value=model.wifi class='form-control'}}
+	</div>	
+
+	<div class='form-group'>
+		<label>How many outlets are available?</label>
+	    {{input value=model.outlets class='form-control'}}
+	</div>	
+
+	<div class='form-group'>
+		<label>How's the atmosphere? Is the music loud? What about the lighting?</label>
+	    {{input value=model.atmosphere class='form-control'}}
+	</div>	
+
+	<div class='form-group'>
+		<label>Provide a Yelp link to let people check out menu/hours</label>
+	    {{input value=model.yelp class='form-control'}}
+	</div>	
+
+	<div class='form-group'>
+	<input type='submit' class="btn btn-success" value='Save'/>
+	<button {{action 'cancel'}} class="btn btn-danger">Cancel</button>
+	</div>
+</form>

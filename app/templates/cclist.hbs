@@ -1,0 +1,7 @@
+<p class='cclist-p'> If you want to submit a new location, send me an email at fana@alessiofanelli.com with city, URL and your name!</p>
+
+<ul>
+{{#each model as |ccsite|}}
+	<li><a href='{{ccsite.url}}'>{{ccsite.city}}</a> is hosted by {{ccsite.host}}</li><br>
+{{/each}}
+</ul>

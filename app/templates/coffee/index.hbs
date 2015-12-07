@@ -1,0 +1,27 @@
+<div class="panel panel-default coffee-list-panel">
+
+  <table class="table table-striped">
+    <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Address
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#each model as |coffee|}}
+                    <tr>
+                        <td>
+                            {{link-to coffee.name 'coffee.show' coffee}}
+                        </td>
+                        <td>
+                            {{coffee.address}}
+                        </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+  </table>
+</div>

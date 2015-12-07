@@ -1,0 +1,35 @@
+<div class="panel panel-default">
+
+  <table class="table">
+    <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Address
+                        </th>
+                        <th>
+                            
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                {{#each coffees as |coffee|}}
+                    <tr class="active">
+                        <td>
+                            {{coffee.name}}
+                        </td>
+                        <td>
+                            {{coffee.address}}
+                        </td>
+                        <td>
+                            <button {{action 'delete' coffee}} type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                {{/each}}
+
+                </tbody>
+  </table>
+</div>
