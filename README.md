@@ -1,53 +1,11 @@
-# Coffeecodephilly
+## CoffeeCodePhilly
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+> *Coffee is a developer best friend.*
 
-## Prerequisites
+The API is built with Rails 5 (check it out [here](https://github.com/CoffeeCodePhilly/ccphilly)) while the frontend is powered by Ember.js. The code was written a while ago, so it doesn't follow the Ember 2.0 best practices (i.e. no controllers / all components) but a refactoring is on the road map. 
 
-You will need the following things properly installed on your computer.
+The frontend doesn't have any city-related setting so it's 100% plug and play with your own version of the API.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+Feel free to get in touch (fana@alessiofanelli.com) with any questions!
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
-
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+This project is licensed under the terms of the MIT license.
